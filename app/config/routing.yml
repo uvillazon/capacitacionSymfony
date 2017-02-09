@@ -1,0 +1,13 @@
+demo:
+    resource: "@DemoBundle/Controller/"
+    type:     annotation
+    prefix:   /demo
+
+# app/config/routing.yml
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /documentacion
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
